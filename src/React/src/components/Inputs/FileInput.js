@@ -23,7 +23,6 @@ export class FileInput extends Component {
     }
   };
 
-  // Example URL: https://ipfs.infura.io/ipfs/QmcjMRMyhzzY91wjgTjwZa6asA2JqRDJQJq8eb7FjTeNHY
   onSubmit = async (event) => {
     // STEP 1: Submit the fie/Form to IPFS and get Hash key
     event.preventDefault();
