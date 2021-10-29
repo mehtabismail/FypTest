@@ -111,7 +111,12 @@ export default function CardLineChart() {
 
   const captureFile = (event)=> {
     event.preventDefault();
-    console.log(event.target.files[0])
+    const file = event.target.files[0];
+    const reader = new window.FileReader();
+    reader.readAsArrayBuffer(file); 
+    reader.onloadend = () => {
+      
+    }
   };
   return (
     <>
