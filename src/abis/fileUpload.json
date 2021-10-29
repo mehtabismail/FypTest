@@ -1,0 +1,108 @@
+{
+  "contractName": "FileUpload",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a72305820b337f2a7d50143a11745939d851ebd8b9eb3489196253d77c79bf01ab025a7f60029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a72305820b337f2a7d50143a11745939d851ebd8b9eb3489196253d77c79bf01ab025a7f60029",
+  "sourceMap": "26:53:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:53:0;;;;;;;",
+  "deployedSourceMap": "26:53:0:-;;;;;",
+  "source": "pragma solidity 0.5.0;\r\n\r\ncontract FileUpload {\r\n    // smart contract code \r\n}\r\n\r\n",
+  "sourcePath": "G:/Blockchain/marketplace/FypTest/src/contracts/FileUpload.sol",
+  "ast": {
+    "absolutePath": "/G/Blockchain/marketplace/FypTest/src/contracts/FileUpload.sol",
+    "exportedSymbols": {
+      "FileUpload": [
+        2
+      ]
+    },
+    "id": 3,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:22:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "FileUpload",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "26:53:0"
+      }
+    ],
+    "src": "0:83:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/G/Blockchain/marketplace/FypTest/src/contracts/FileUpload.sol",
+    "exportedSymbols": {
+      "FileUpload": [
+        2
+      ]
+    },
+    "id": 3,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:22:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "FileUpload",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "26:53:0"
+      }
+    ],
+    "src": "0:83:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xD0276dE0Fc45940c3b86D5124C6d833657094006",
+      "transactionHash": "0x3f9844f2dff3f26925a4dd4e3f973b5eab07fbb4851085f4d066a0681affd4a9"
+    }
+  },
+  "schemaVersion": "3.0.2",
+  "updatedAt": "2021-10-29T20:54:08.012Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
