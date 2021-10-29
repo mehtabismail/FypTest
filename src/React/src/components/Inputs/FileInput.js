@@ -57,6 +57,11 @@ export class FileInput extends Component {
                 <dv>
                   <img src={`https://ipfs.io/ipfs/${this.state.ipfsHash}`} alt="" />
                 </dv>
+                <div>
+                  <p>
+                    hello world 
+                  </p>
+                </div>
               </div>
             </div>
           </div>
