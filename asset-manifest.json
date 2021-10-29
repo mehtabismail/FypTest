@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/FypTest/static/css/main.7289bea3.chunk.css",
+    "main.js": "/FypTest/static/js/main.afc15518.chunk.js",
+    "main.js.map": "/FypTest/static/js/main.afc15518.chunk.js.map",
+    "runtime-main.js": "/FypTest/static/js/runtime-main.435f63d2.js",
+    "runtime-main.js.map": "/FypTest/static/js/runtime-main.435f63d2.js.map",
+    "static/css/2.0eed59e9.chunk.css": "/FypTest/static/css/2.0eed59e9.chunk.css",
+    "static/js/2.211a2772.chunk.js": "/FypTest/static/js/2.211a2772.chunk.js",
+    "static/js/2.211a2772.chunk.js.map": "/FypTest/static/js/2.211a2772.chunk.js.map",
+    "index.html": "/FypTest/index.html",
+    "static/css/2.0eed59e9.chunk.css.map": "/FypTest/static/css/2.0eed59e9.chunk.css.map",
+    "static/css/main.7289bea3.chunk.css.map": "/FypTest/static/css/main.7289bea3.chunk.css.map",
+    "static/js/2.211a2772.chunk.js.LICENSE.txt": "/FypTest/static/js/2.211a2772.chunk.js.LICENSE.txt",
+    "static/media/angular.jpg": "/FypTest/static/media/angular.b5045666.jpg",
+    "static/media/bootstrap.jpg": "/FypTest/static/media/bootstrap.bd712487.jpg",
+    "static/media/all.min.css": "/FypTest/static/media/fa-solid-900.efbd5d20.eot",
+    "static/media/github.svg": "/FypTest/static/media/github.6c955556.svg",
+    "static/media/google.svg": "/FypTest/static/media/google.eae9aa93.svg",
+    "static/media/mehtab.png": "/FypTest/static/media/mehtab.04835230.png",
+    "static/media/pattern_react.png": "/FypTest/static/media/pattern_react.01996482.png",
+    "static/media/react.jpg": "/FypTest/static/media/react.0e8c9066.jpg",
+    "static/media/register_bg_2.png": "/FypTest/static/media/register_bg_2.4f2cb0ac.png",
+    "static/media/sketch.jpg": "/FypTest/static/media/sketch.a6af780a.jpg",
+    "static/media/team-1-800x800.jpg": "/FypTest/static/media/team-1-800x800.fa5a7ac2.jpg",
+    "static/media/team-2-800x800.jpg": "/FypTest/static/media/team-2-800x800.3e08ef14.jpg",
+    "static/media/team-3-800x800.jpg": "/FypTest/static/media/team-3-800x800.19201574.jpg",
+    "static/media/team-4-470x470.png": "/FypTest/static/media/team-4-470x470.4ef82ef4.png",
+    "static/media/vue.jpg": "/FypTest/static/media/vue.43bd93a8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.435f63d2.js",
+    "static/css/2.0eed59e9.chunk.css",
+    "static/js/2.211a2772.chunk.js",
+    "static/css/main.7289bea3.chunk.css",
+    "static/js/main.afc15518.chunk.js"
+  ]
+}
