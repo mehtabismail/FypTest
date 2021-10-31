@@ -1,7 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Login() {
+
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
+
+  const tryLogin = async () => {
+    console.log("function")
+    // const response = await login(email, password);
+    // const {data} = response;
+    // if (data.success) {
+    //     setError("");
+    //     localStorage.setItem("token", data.token);
+    //     localStorage.setItem("user", JSON.stringify(data.user));
+    //     props.history.push("/");
+    // } else {
+    //     setPassword("");
+    //     setError(data.msg);
+    // }
+
+    if (email === 'admin@test.com' && password == 'admin1234') {
+      <Link
+        to="/admin/dashboard"
+      // className={
+      //   "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+      // }
+      />
+    }
+  }
+
   return (
     <>
       <div className="container mx-auto px-4 h-full">
@@ -56,6 +85,9 @@ export default function Login() {
                       type="email"
                       className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                       placeholder="Email"
+                      autoComplete="email"
+                      value={email}
+                      onChange={e => setEmail(e.target.value)}
                     />
                   </div>
 
@@ -70,6 +102,9 @@ export default function Login() {
                       type="password"
                       className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                       placeholder="Password"
+                      autoComplete="password"
+                      value={password}
+                      onChange={e => setPassword(e.target.value)}
                     />
                   </div>
                   <div>
@@ -85,13 +120,18 @@ export default function Login() {
                     </label>
                   </div>
 
-                  <div className="text-center mt-6">
-                    <button
+                  <div className="text-center mt-6 ">
+                    {/* <button
                       className="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
                       type="button"
+                      onClick={<Link to="/admin/dashboard" className="text-blueGray-200">
+                      </Link>}
                     >
                       Sign In
-                    </button>
+                    </button> */}
+                    <Link type="button" to="/admin/dashboard" className="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 w-full">
+                      sign in
+                    </Link>
                   </div>
                 </form>
               </div>
