@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Web3 from 'web3';
+// import fileUpload from '../../../../abis/FileUpload.json'
 
 const IPFS = require('ipfs-api')
 const ipfs = new IPFS({ host: 'ipfs.infura.io', port: '5001', protocol: 'https' })
@@ -8,10 +10,39 @@ export class FileInput extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      ipfsHash: '',
+      storageValue: 0,
+      web3: null,
       buffer: null,
-      ipfsHash: ''
     }
   }
+
+  // async componentWillMount() {
+  //   await this.loadWeb3()
+  // }
+
+  
+
+
+  
+  // //Connects Front-end with Metamask
+  // async loadWeb3() {
+  //   //Modern Dapp Browsers
+  //   if (window.ethereum) {
+  //     window.web3 = new Web3(window.ethereum)
+  //     await window.ethereum.enable()
+  //   }
+  //   //Legacy Dapp Browsers
+  //   else if (window.web3) {
+  //     window.web3 = new Web3(window.web3.currentProvider)
+  //   }
+  //   //Non Dapp-Browsers
+  //   else {
+  //     window.alert('Non-Ethereum browser detected. You should consider trying MetaMask!')
+  //   }
+  // }
+
+
   captureFile = (event) => {
     event.preventDefault();
     const file = event.target.files[0];
@@ -57,11 +88,6 @@ export class FileInput extends Component {
                 <dv>
                   <img src={`https://ipfs.io/ipfs/${this.state.ipfsHash}`} alt="" />
                 </dv>
-                <div>
-                  <p>
-                    hello world 
-                  </p>
-                </div>
               </div>
             </div>
           </div>
