@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+// eslint-disable-next-line no-undef
 const FileUpload = artifacts.require('FileUpload')
 
 const { assert, use, should } = require("chai")
