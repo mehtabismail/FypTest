@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import UserDropdown from "../../components/Dropdowns/UserDropdown.js";
 
-export default function Navbar() {
+export default function PatientNavbar() {
   return (
     <>
       {/* Navbar */}
@@ -14,7 +15,7 @@ export default function Navbar() {
             href="#pablo"
             onClick={(e) => e.preventDefault()}
           >
-            Admin Dashboard
+            Patient Dashboard
           </a>
           {/* Form */}
           <form className="md:flex hidden flex-row flex-wrap items-center lg:ml-auto mr-3">
@@ -33,6 +34,13 @@ export default function Navbar() {
           <ul className="flex-col md:flex-row list-none items-center hidden md:flex">
             <UserDropdown />
           </ul>
+          <Link
+                className="text-white hover:font-bold text-xs uppercase py-3 px-3 font-bold block"
+                to="/auth"
+              >
+                <i class="fas fa-sign-out-alt mr-2"></i>{" "}
+                Log Out
+              </Link>
         </div>
       </nav>
       {/* End Navbar */}

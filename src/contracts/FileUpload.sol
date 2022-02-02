@@ -1,7 +1,7 @@
 pragma solidity 0.5.0;
 
 contract FileUpload {
-    string fileHash;
+    string fileHash = "abc.png";
 
     // Write File Function
     function set(string memory _fileHash) public {

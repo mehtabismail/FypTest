@@ -1,8 +1,14 @@
 const express = require("express");
 const dotenv = require("dotenv");
 const morgan = require("morgan");
-const cookieParser = require('cookie-parser');
+const cookieParser = require("cookie-parser");
 const connectDB = require("./config/db");
+const mongoSanitize = require("express-mongo-sanitize");
+const helmet = require("helmet");
+const xss = require("xss-clean");
+const rateLimit = require("express-rate-limit");
+const hpp = require("hpp");
+const cors = require('cors');
 const errorHandler = require("./middleware/error");
 
 // load env variables
@@ -14,9 +20,8 @@ const PORT = process.env.PORT || 5000;
 // Route Files
 const hospitals = require("./routes/hospitals");
 const doctors = require("./routes/doctors");
-const patients = require('./routes/patients');
-const users = require('./routes/auth');
-
+const patients = require("./routes/patients");
+const users = require("./routes/auth");
 
 // Connect to Database
 connectDB();
@@ -34,11 +39,33 @@ if (process.env.NODE_ENV === "development") {
   app.use(morgan("dev"));
 }
 
+// Sanitize Data
+app.use(mongoSanitize());
+
+// Set Security headers
+app.use(helmet());
+
+// Prevent XSS Attacks
+app.use(xss());
+
+// Rate Limiting
+const limiter = rateLimit({
+  windowMs: 5 * 60 * 1000,
+  max: 100,
+});
+app.use(limiter);
+
+// Prevent http param pollution
+app.use(hpp());
+
+// Enable CORS
+app.use(cors());
+
 // Mount Routers
 app.use("/api/v1/hospitals", hospitals);
 app.use("/api/v1/doctors", doctors);
 app.use("/api/v1/patients", patients);
-app.use('/api/vi/auth', users);
+app.use("/api/vi/auth", users);
 
 // Custom ErrorHandler
 app.use(errorHandler);

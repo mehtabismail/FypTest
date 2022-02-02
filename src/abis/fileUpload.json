@@ -30,21 +30,21 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.0+commit.1d4f565a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"_fileHash\",\"type\":\"string\"}],\"name\":\"set\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"get\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/FileUpload.sol\":\"FileUpload\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/src/contracts/FileUpload.sol\":{\"keccak256\":\"0x096f1e17e81e5ae35a71dfd7ca1bff4ca6ed801192acfab8c02470fc0964ddd8\",\"urls\":[\"bzzr://e77b4babe5b292c71e2fab5410fd27b98bf03189030e7263982a4b1c314247df\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b50610336806100206000396000f3fe60806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680634ed3885e146100515780636d4ce63c14610119575b600080fd5b34801561005d57600080fd5b506101176004803603602081101561007457600080fd5b810190808035906020019064010000000081111561009157600080fd5b8201836020820111156100a357600080fd5b803590602001918460018302840111640100000000831117156100c557600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f8201169050808301925050505050505091929192905050506101a9565b005b34801561012557600080fd5b5061012e6101c3565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561016e578082015181840152602081019050610153565b50505050905090810190601f16801561019b5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b80600090805190602001906101bf929190610265565b5050565b606060008054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561025b5780601f106102305761010080835404028352916020019161025b565b820191906000526020600020905b81548152906001019060200180831161023e57829003601f168201915b5050505050905090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106102a657805160ff19168380011785556102d4565b828001600101855582156102d4579182015b828111156102d35782518255916020019190600101906102b8565b5b5090506102e191906102e5565b5090565b61030791905b808211156103035760008160009055506001016102eb565b5090565b9056fea165627a7a72305820242e412b4368aed6692e885be7af6fe37ac3a70d5178f3a2bd000ae9942955860029",
-  "deployedBytecode": "0x60806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680634ed3885e146100515780636d4ce63c14610119575b600080fd5b34801561005d57600080fd5b506101176004803603602081101561007457600080fd5b810190808035906020019064010000000081111561009157600080fd5b8201836020820111156100a357600080fd5b803590602001918460018302840111640100000000831117156100c557600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f8201169050808301925050505050505091929192905050506101a9565b005b34801561012557600080fd5b5061012e6101c3565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561016e578082015181840152602081019050610153565b50505050905090810190601f16801561019b5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b80600090805190602001906101bf929190610265565b5050565b606060008054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561025b5780601f106102305761010080835404028352916020019161025b565b820191906000526020600020905b81548152906001019060200180831161023e57829003601f168201915b5050505050905090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106102a657805160ff19168380011785556102d4565b828001600101855582156102d4579182015b828111156102d35782518255916020019190600101906102b8565b5b5090506102e191906102e5565b5090565b61030791905b808211156103035760008160009055506001016102eb565b5090565b9056fea165627a7a72305820242e412b4368aed6692e885be7af6fe37ac3a70d5178f3a2bd000ae9942955860029",
-  "sourceMap": "26:285:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:285:0;;;;;;;",
-  "deployedSourceMap": "26:285:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;105:84;;8:9:-1;5:2;;;30:1;27;20:12;5:2;105:84:0;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;105:84:0;;;;;;;;;;21:11:-1;8;5:28;2:2;;;46:1;43;36:12;2:2;105:84:0;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;105:84:0;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;105:84:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;93:3;85:6;81:16;74:27;137:4;133:9;126:4;121:3;117:14;113:30;106:37;;169:3;161:6;157:16;147:26;;105:84:0;;;;;;;;;;;;;;;;;;223:85;;8:9:-1;5:2;;;30:1;27;20:12;5:2;223:85:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;223:85:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;105:84;172:9;161:8;:20;;;;;;;;;;;;:::i;:::-;;105:84;:::o;223:85::-;259:13;292:8;285:15;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;223:85;:::o;26:285::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
-  "source": "pragma solidity 0.5.0;\r\n\r\ncontract FileUpload {\r\n    string fileHash;\r\n\r\n    // Write File Function\r\n    function set(string memory _fileHash) public {\r\n        fileHash = _fileHash;\r\n    }\r\n\r\n    //Read File Function\r\n    function get() public view returns (string memory) {\r\n        return fileHash;\r\n    }\r\n}\r\n\r\n",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.0+commit.1d4f565a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"_fileHash\",\"type\":\"string\"}],\"name\":\"set\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"get\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/FileUpload.sol\":\"FileUpload\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/src/contracts/FileUpload.sol\":{\"keccak256\":\"0x91601ff83ff02fe6015952cb0de67649656a683eeea53d3f403e59663ce76c0c\",\"urls\":[\"bzzr://fd310ff620565c0d976827afb0121df09ce39de5e1473f657f9f9122e99fff66\"]}},\"version\":1}",
+  "bytecode": "0x60806040526040805190810160405280600781526020017f6162632e706e67000000000000000000000000000000000000000000000000008152506000908051906020019061004f929190610062565b5034801561005c57600080fd5b50610107565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100a357805160ff19168380011785556100d1565b828001600101855582156100d1579182015b828111156100d05782518255916020019190600101906100b5565b5b5090506100de91906100e2565b5090565b61010491905b808211156101005760008160009055506001016100e8565b5090565b90565b610336806101166000396000f3fe60806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680634ed3885e146100515780636d4ce63c14610119575b600080fd5b34801561005d57600080fd5b506101176004803603602081101561007457600080fd5b810190808035906020019064010000000081111561009157600080fd5b8201836020820111156100a357600080fd5b803590602001918460018302840111640100000000831117156100c557600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f8201169050808301925050505050505091929192905050506101a9565b005b34801561012557600080fd5b5061012e6101c3565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561016e578082015181840152602081019050610153565b50505050905090810190601f16801561019b5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b80600090805190602001906101bf929190610265565b5050565b606060008054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561025b5780601f106102305761010080835404028352916020019161025b565b820191906000526020600020905b81548152906001019060200180831161023e57829003601f168201915b5050505050905090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106102a657805160ff19168380011785556102d4565b828001600101855582156102d4579182015b828111156102d35782518255916020019190600101906102b8565b5b5090506102e191906102e5565b5090565b61030791905b808211156103035760008160009055506001016102eb565b5090565b9056fea165627a7a7230582007f98f6a37cc49908a4ee0bdde375da99a07b2f3aba90a0d4dd767b35185d95d0029",
+  "deployedBytecode": "0x60806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680634ed3885e146100515780636d4ce63c14610119575b600080fd5b34801561005d57600080fd5b506101176004803603602081101561007457600080fd5b810190808035906020019064010000000081111561009157600080fd5b8201836020820111156100a357600080fd5b803590602001918460018302840111640100000000831117156100c557600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f8201169050808301925050505050505091929192905050506101a9565b005b34801561012557600080fd5b5061012e6101c3565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561016e578082015181840152602081019050610153565b50505050905090810190601f16801561019b5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b80600090805190602001906101bf929190610265565b5050565b606060008054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561025b5780601f106102305761010080835404028352916020019161025b565b820191906000526020600020905b81548152906001019060200180831161023e57829003601f168201915b5050505050905090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106102a657805160ff19168380011785556102d4565b828001600101855582156102d4579182015b828111156102d35782518255916020019190600101906102b8565b5b5090506102e191906102e5565b5090565b61030791905b808211156103035760008160009055506001016102eb565b5090565b9056fea165627a7a7230582007f98f6a37cc49908a4ee0bdde375da99a07b2f3aba90a0d4dd767b35185d95d0029",
+  "sourceMap": "26:297:0:-;;;53:27;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;26:297;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:297:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "26:297:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;117:84;;8:9:-1;5:2;;;30:1;27;20:12;5:2;117:84:0;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;117:84:0;;;;;;;;;;21:11:-1;8;5:28;2:2;;;46:1;43;36:12;2:2;117:84:0;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;117:84:0;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;117:84:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;93:3;85:6;81:16;74:27;137:4;133:9;126:4;121:3;117:14;113:30;106:37;;169:3;161:6;157:16;147:26;;117:84:0;;;;;;;;;;;;;;;;;;235:85;;8:9:-1;5:2;;;30:1;27;20:12;5:2;235:85:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;235:85:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;117:84;184:9;173:8;:20;;;;;;;;;;;;:::i;:::-;;117:84;:::o;235:85::-;271:13;304:8;297:15;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;235:85;:::o;26:297::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity 0.5.0;\r\n\r\ncontract FileUpload {\r\n    string fileHash = \"abc.png\";\r\n\r\n    // Write File Function\r\n    function set(string memory _fileHash) public {\r\n        fileHash = _fileHash;\r\n    }\r\n\r\n    //Read File Function\r\n    function get() public view returns (string memory) {\r\n        return fileHash;\r\n    }\r\n}\r\n\r\n",
   "sourcePath": "G:\\Blockchain\\marketplace\\FypTest\\src\\contracts\\FileUpload.sol",
   "ast": {
     "absolutePath": "project:/src/contracts/FileUpload.sol",
     "exportedSymbols": {
       "FileUpload": [
-        22
+        23
       ]
     },
-    "id": 23,
+    "id": 24,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -63,20 +63,20 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 22,
+        "id": 23,
         "linearizedBaseContracts": [
-          22
+          23
         ],
         "name": "FileUpload",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 3,
+            "id": 4,
             "name": "fileHash",
             "nodeType": "VariableDeclaration",
-            "scope": 22,
-            "src": "53:15:0",
+            "scope": 23,
+            "src": "53:27:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -93,31 +93,48 @@
                 "typeString": "string"
               }
             },
-            "value": null,
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "6162632e706e67",
+              "id": 3,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "71:9:0",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_0f53d41ff48879112d2a97fe865622bdd6908f1cae20e0b40b357c2ac931289f",
+                "typeString": "literal_string \"abc.png\""
+              },
+              "value": "abc.png"
+            },
             "visibility": "internal"
           },
           {
             "body": {
-              "id": 12,
+              "id": 13,
               "nodeType": "Block",
-              "src": "150:39:0",
+              "src": "162:39:0",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 10,
+                    "id": 11,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 8,
+                      "id": 9,
                       "name": "fileHash",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 3,
-                      "src": "161:8:0",
+                      "referencedDeclaration": 4,
+                      "src": "173:8:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_storage",
                         "typeString": "string storage ref"
@@ -127,47 +144,47 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 9,
+                      "id": 10,
                       "name": "_fileHash",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 5,
-                      "src": "172:9:0",
+                      "referencedDeclaration": 6,
+                      "src": "184:9:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_memory_ptr",
                         "typeString": "string memory"
                       }
                     },
-                    "src": "161:20:0",
+                    "src": "173:20:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
                     }
                   },
-                  "id": 11,
+                  "id": 12,
                   "nodeType": "ExpressionStatement",
-                  "src": "161:20:0"
+                  "src": "173:20:0"
                 }
               ]
             },
             "documentation": null,
-            "id": 13,
+            "id": 14,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "set",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 6,
+              "id": 7,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5,
+                  "id": 6,
                   "name": "_fileHash",
                   "nodeType": "VariableDeclaration",
-                  "scope": 13,
-                  "src": "118:23:0",
+                  "scope": 14,
+                  "src": "130:23:0",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -175,10 +192,10 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 4,
+                    "id": 5,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "118:6:0",
+                    "src": "130:6:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -188,71 +205,71 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "117:25:0"
+              "src": "129:25:0"
             },
             "returnParameters": {
-              "id": 7,
+              "id": 8,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "150:0:0"
+              "src": "162:0:0"
             },
-            "scope": 22,
-            "src": "105:84:0",
+            "scope": 23,
+            "src": "117:84:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 20,
+              "id": 21,
               "nodeType": "Block",
-              "src": "274:34:0",
+              "src": "286:34:0",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 18,
+                    "id": 19,
                     "name": "fileHash",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 3,
-                    "src": "292:8:0",
+                    "referencedDeclaration": 4,
+                    "src": "304:8:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
                     }
                   },
-                  "functionReturnParameters": 17,
-                  "id": 19,
+                  "functionReturnParameters": 18,
+                  "id": 20,
                   "nodeType": "Return",
-                  "src": "285:15:0"
+                  "src": "297:15:0"
                 }
               ]
             },
             "documentation": null,
-            "id": 21,
+            "id": 22,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "get",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14,
+              "id": 15,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "235:2:0"
+              "src": "247:2:0"
             },
             "returnParameters": {
-              "id": 17,
+              "id": 18,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 16,
+                  "id": 17,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 21,
-                  "src": "259:13:0",
+                  "scope": 22,
+                  "src": "271:13:0",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -260,10 +277,10 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 15,
+                    "id": 16,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "259:6:0",
+                    "src": "271:6:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -273,27 +290,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "258:15:0"
+              "src": "270:15:0"
             },
-            "scope": 22,
-            "src": "223:85:0",
+            "scope": 23,
+            "src": "235:85:0",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 23,
-        "src": "26:285:0"
+        "scope": 24,
+        "src": "26:297:0"
       }
     ],
-    "src": "0:315:0"
+    "src": "0:327:0"
   },
   "legacyAST": {
     "attributes": {
       "absolutePath": "project:/src/contracts/FileUpload.sol",
       "exportedSymbols": {
         "FileUpload": [
-          22
+          23
         ]
       }
     },
@@ -322,21 +339,20 @@
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            22
+            23
           ],
           "name": "FileUpload",
-          "scope": 23
+          "scope": 24
         },
         "children": [
           {
             "attributes": {
               "constant": false,
               "name": "fileHash",
-              "scope": 22,
+              "scope": 23,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "string",
-              "value": null,
               "visibility": "internal"
             },
             "children": [
@@ -348,11 +364,28 @@
                 "id": 2,
                 "name": "ElementaryTypeName",
                 "src": "53:6:0"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "6162632e706e67",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "string",
+                  "type": "literal_string \"abc.png\"",
+                  "value": "abc.png"
+                },
+                "id": 3,
+                "name": "Literal",
+                "src": "71:9:0"
               }
             ],
-            "id": 3,
+            "id": 4,
             "name": "VariableDeclaration",
-            "src": "53:15:0"
+            "src": "53:27:0"
           },
           {
             "attributes": {
@@ -364,7 +397,7 @@
                 null
               ],
               "name": "set",
-              "scope": 22,
+              "scope": 23,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -376,7 +409,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_fileHash",
-                      "scope": 13,
+                      "scope": 14,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "string",
@@ -389,19 +422,19 @@
                           "name": "string",
                           "type": "string"
                         },
-                        "id": 4,
+                        "id": 5,
                         "name": "ElementaryTypeName",
-                        "src": "118:6:0"
+                        "src": "130:6:0"
                       }
                     ],
-                    "id": 5,
+                    "id": 6,
                     "name": "VariableDeclaration",
-                    "src": "118:23:0"
+                    "src": "130:23:0"
                   }
                 ],
-                "id": 6,
+                "id": 7,
                 "name": "ParameterList",
-                "src": "117:25:0"
+                "src": "129:25:0"
               },
               {
                 "attributes": {
@@ -410,9 +443,9 @@
                   ]
                 },
                 "children": [],
-                "id": 7,
+                "id": 8,
                 "name": "ParameterList",
-                "src": "150:0:0"
+                "src": "162:0:0"
               },
               {
                 "children": [
@@ -435,13 +468,13 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 3,
+                              "referencedDeclaration": 4,
                               "type": "string storage ref",
                               "value": "fileHash"
                             },
-                            "id": 8,
+                            "id": 9,
                             "name": "Identifier",
-                            "src": "161:8:0"
+                            "src": "173:8:0"
                           },
                           {
                             "attributes": {
@@ -449,33 +482,33 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5,
+                              "referencedDeclaration": 6,
                               "type": "string memory",
                               "value": "_fileHash"
                             },
-                            "id": 9,
+                            "id": 10,
                             "name": "Identifier",
-                            "src": "172:9:0"
+                            "src": "184:9:0"
                           }
                         ],
-                        "id": 10,
+                        "id": 11,
                         "name": "Assignment",
-                        "src": "161:20:0"
+                        "src": "173:20:0"
                       }
                     ],
-                    "id": 11,
+                    "id": 12,
                     "name": "ExpressionStatement",
-                    "src": "161:20:0"
+                    "src": "173:20:0"
                   }
                 ],
-                "id": 12,
+                "id": 13,
                 "name": "Block",
-                "src": "150:39:0"
+                "src": "162:39:0"
               }
             ],
-            "id": 13,
+            "id": 14,
             "name": "FunctionDefinition",
-            "src": "105:84:0"
+            "src": "117:84:0"
           },
           {
             "attributes": {
@@ -487,7 +520,7 @@
                 null
               ],
               "name": "get",
-              "scope": 22,
+              "scope": 23,
               "stateMutability": "view",
               "superFunction": null,
               "visibility": "public"
@@ -500,9 +533,9 @@
                   ]
                 },
                 "children": [],
-                "id": 14,
+                "id": 15,
                 "name": "ParameterList",
-                "src": "235:2:0"
+                "src": "247:2:0"
               },
               {
                 "children": [
@@ -510,7 +543,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "",
-                      "scope": 21,
+                      "scope": 22,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "string",
@@ -523,25 +556,25 @@
                           "name": "string",
                           "type": "string"
                         },
-                        "id": 15,
+                        "id": 16,
                         "name": "ElementaryTypeName",
-                        "src": "259:6:0"
+                        "src": "271:6:0"
                       }
                     ],
-                    "id": 16,
+                    "id": 17,
                     "name": "VariableDeclaration",
-                    "src": "259:13:0"
+                    "src": "271:13:0"
                   }
                 ],
-                "id": 17,
+                "id": 18,
                 "name": "ParameterList",
-                "src": "258:15:0"
+                "src": "270:15:0"
               },
               {
                 "children": [
                   {
                     "attributes": {
-                      "functionReturnParameters": 17
+                      "functionReturnParameters": 18
                     },
                     "children": [
                       {
@@ -550,38 +583,38 @@
                           "overloadedDeclarations": [
                             null
                           ],
-                          "referencedDeclaration": 3,
+                          "referencedDeclaration": 4,
                           "type": "string storage ref",
                           "value": "fileHash"
                         },
-                        "id": 18,
+                        "id": 19,
                         "name": "Identifier",
-                        "src": "292:8:0"
+                        "src": "304:8:0"
                       }
                     ],
-                    "id": 19,
+                    "id": 20,
                     "name": "Return",
-                    "src": "285:15:0"
+                    "src": "297:15:0"
                   }
                 ],
-                "id": 20,
+                "id": 21,
                 "name": "Block",
-                "src": "274:34:0"
+                "src": "286:34:0"
               }
             ],
-            "id": 21,
+            "id": 22,
             "name": "FunctionDefinition",
-            "src": "223:85:0"
+            "src": "235:85:0"
           }
         ],
-        "id": 22,
+        "id": 23,
         "name": "ContractDefinition",
-        "src": "26:285:0"
+        "src": "26:297:0"
       }
     ],
-    "id": 23,
+    "id": 24,
     "name": "SourceUnit",
-    "src": "0:315:0"
+    "src": "0:327:0"
   },
   "compiler": {
     "name": "solc",
@@ -591,12 +624,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xD0276dE0Fc45940c3b86D5124C6d833657094006",
-      "transactionHash": "0x3f9844f2dff3f26925a4dd4e3f973b5eab07fbb4851085f4d066a0681affd4a9"
+      "address": "0xAd5bc43334F0654EC45A78194583C37f1B6D4a3D",
+      "transactionHash": "0xf93ad0fcb718871034108fd574f2095e5a4552a04e80bb30f1cdd659387a9c03"
     }
   },
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-01-20T23:57:39.600Z",
+  "updatedAt": "2022-01-28T04:26:31.228Z",
   "devdoc": {
     "methods": {}
   },

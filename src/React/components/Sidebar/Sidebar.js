@@ -1,11 +1,10 @@
 /*eslint-disable*/
 import React from "react";
 import { Link } from "react-router-dom";
-import Index from "React/views/Index.js";
 
 import NotificationDropdown from "../../components/Dropdowns/NotificationDropdown.js";
 import UserDropdown from "../../components/Dropdowns/UserDropdown.js";
-import ContactForm from "../Forms/form.js";
+import ContactForm from "../Forms/addDoctor.js";
 
 export default function Sidebar() {
   const [collapseShow, setCollapseShow] = React.useState("hidden");
@@ -126,11 +125,11 @@ export default function Sidebar() {
                         : "text-blueGray-300")
                     }
                   ></i>{" "}
-                  Settings
+                  Account Information
                 </Link>
               </li>
 
-              <li className="items-center">
+              {/* <li className="items-center">
                 <Link
                   className={
                     "text-xs uppercase py-3 font-bold block " +
@@ -150,7 +149,7 @@ export default function Sidebar() {
                   ></i>{" "}
                   Form
                 </Link>
-              </li>
+              </li> */}
 
               {/* <li className="items-center">
                 <Link

@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import DoctorHome from "../user/doctorHome";
 
 export default function Login() {
-
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
   const tryLogin = async () => {
-    console.log("function")
+    console.log("function");
     // const response = await login(email, password);
     // const {data} = response;
     // if (data.success) {
@@ -21,23 +21,16 @@ export default function Login() {
     //     setError(data.msg);
     // }
 
-    if (email === 'admin@test.com' && password == 'admin1234') {
-      <Link
-        to="/admin/dashboard"
-      // className={
-      //   "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-      // }
-      />
-    }
-  }
+   
+  };
 
   return (
     <>
-      <div className="container mx-auto px-4 h-full">
-        <div className="flex content-center items-center justify-center h-full">
+      <div style={{backgroundColor: "#0284c7", height:"100vh"}}>
+        <div className="flex content-center items-center justify-center h-full ">
           <div className="w-full lg:w-4/12 px-4">
             <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200 border-0">
-              <div className="rounded-t mb-0 px-6 py-6">
+              {/* <div className="rounded-t mb-0 px-6 py-6">
                 <div className="text-center mb-3">
                   <h6 className="text-blueGray-500 text-sm font-bold">
                     Sign in with
@@ -68,10 +61,10 @@ export default function Login() {
                   </button>
                 </div>
                 <hr className="mt-6 border-b-1 border-blueGray-300" />
-              </div>
-              <div className="flex-auto px-4 lg:px-10 py-10 pt-0">
-                <div className="text-blueGray-400 text-center mb-3 font-bold">
-                  <small>Or sign in with credentials</small>
+              </div> */}
+              <div className="flex-auto px-4  lg:px-10 py-10 pt-0">
+                <div className="text-black text-center font-bold text-2xl mb-3 font-bold py-5">
+                  <small>Sign in to MRUB</small>
                 </div>
                 <form>
                   <div className="relative w-full mb-3">
@@ -87,7 +80,7 @@ export default function Login() {
                       placeholder="Email"
                       autoComplete="email"
                       value={email}
-                      onChange={e => setEmail(e.target.value)}
+                      onChange={(e) => setEmail(e.target.value)}
                     />
                   </div>
 
@@ -104,20 +97,8 @@ export default function Login() {
                       placeholder="Password"
                       autoComplete="password"
                       value={password}
-                      onChange={e => setPassword(e.target.value)}
+                      onChange={(e) => setPassword(e.target.value)}
                     />
-                  </div>
-                  <div>
-                    <label className="inline-flex items-center cursor-pointer">
-                      <input
-                        id="customCheckLogin"
-                        type="checkbox"
-                        className="form-checkbox border-0 rounded text-blueGray-700 ml-1 w-5 h-5 ease-linear transition-all duration-150"
-                      />
-                      <span className="ml-2 text-sm font-semibold text-blueGray-600">
-                        Remember me
-                      </span>
-                    </label>
                   </div>
 
                   <div className="text-center mt-6 ">
@@ -129,7 +110,11 @@ export default function Login() {
                     >
                       Sign In
                     </button> */}
-                    <Link type="button" to="/admin/dashboard" className="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 w-full">
+                    <Link
+                      type="button"
+                      to='/doctor/dashboard'
+                      className="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 w-full"
+                    >
                       sign in
                     </Link>
                   </div>
@@ -145,11 +130,6 @@ export default function Login() {
                 >
                   <small>Forgot password?</small>
                 </a>
-              </div>
-              <div className="w-1/2 text-right">
-                <Link to="/auth/register" className="text-blueGray-200">
-                  <small>Create new account</small>
-                </Link>
               </div>
             </div>
           </div>
